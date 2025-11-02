@@ -29,7 +29,6 @@ export default defineConfig(({ mode }) => {
   // No cleanup for multi-file builds; keep favicon.ico in output
 
   return {
-    base: '/portfolio',
     plugins: [
       react(),
       Pages({
